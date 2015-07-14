@@ -1,0 +1,32 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 2px;
+    padding: 2px;
+    background-color: rgba(200, 200, 200, 0.75);
+    font-family: Verdana, Arial;
+}
+
+#divMapCanvas {
+    width: 70%;
+    height: 90%;
+    float: left;
+    top: auto;
+}
+
+#divPanelCheckbox {
+    display: inline-block;
+    top: auto;
+    padding-left: 2em;
+}
+
+.header {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    padding: 20px;
+    font-size: larger;
+}

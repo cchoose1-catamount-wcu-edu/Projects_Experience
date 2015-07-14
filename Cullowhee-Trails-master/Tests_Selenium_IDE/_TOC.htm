@@ -1,0 +1,1290 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Selenium IDE Test - Table of Contents</title>
+    <style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+	</style>
+</head>
+<body>
+<h1>Table of Contents:  
+Tests in Selenium IDE Test Suite</h1>
+<h2>I. Core Content Tests</h2>
+<ol>
+  <li><a href="#Homepage">Home page</a> (index.html)</li>
+  <li><a href="#TourPage">Tour page</a> == <a href="#ListOfCategories">List of Categories</a> (categories.html)</li>
+  <li><a href="#ParkingPage">Parking page</a> (visitorParking.html)</li>
+  <li>Weather page</li>
+  <li><a href="#AboutPage">About page</a> (about.html)<br>
+    <br>
+  </li>
+  <li><a href="#POIListPages">List of POIs in Category</a> (POIList.html)
+    <ol>
+      <li><a href="#POILearn">Learn </a></li>
+      <li><a href="#POILive">Live</a></li>
+      <li><a href="#POIEat">Eat</a></li>
+      <li><a href="#POIEnjoy">Enjoy</a></li>
+      <li><a href="#POIInquire">Inquire </a></li>
+    </ol>
+  </li>
+  <li><a href="#POIPages">POI pages</a> (Current Number: 15)<br>
+    <ol>
+      <li><strong>Learn (15)</strong>
+        <ol>
+          <li><a href="#POIBelkBuilding">Belk Building </a></li>
+          <li><a href="#POIBreeseGymnasium">Breese Gymnasium</a></li>
+          <li><a href="#POICATBuilding">CAT Building</a></li>
+          <li><a href="#POICordeliaBuilding">Cordelia Building</a></li>
+          <li><a href="#POICoulterBuilding">Coulter Building</a></li>
+          <li><a href="#POIForsythBuilding">Forsyth Building</a></li>
+          <li><a href="#POIHealthAndHuman">Health And Human Sciences Building</a></li>
+          <li><a href="#POIHunterLibraryBuilding">Hunter Library Building</a></li>
+          <li><a href="#POIKillianBuilding">Killian Building</a></li>
+          <li><a href="#POIMcKeeBuilding">McKee Building</a></li>
+          <li><a href="#POINaturalScienceBuilding">Natural Sciences Building</a></li>
+          <li><a href="#POIOldStudentUnionBuilding">Old Student Union Building</a></li>
+          <li><a href="#POIReidBuilding">Reid Building</a></li>
+          <li><a href="#POIStillwellBuilding">Stillwell Building</a></li>
+          <li><a href="#POIUniversityBookstoreBuilding">University Bookstore</a></li>
+        </ol>
+      </li>
+      <li><strong>Live (12 ?)</strong>
+  <ol>
+    <li>Albright-Benton Hall</li>
+    <li>....</li>
+    <li>....</li>
+    <li>...</li>
+    <li>...</li>
+    <li>...</li>
+    <li>...</li>
+    <li>...</li>
+    <li>...</li>
+    <li>...</li>
+    <li>...</li>
+    <li>Walker Hall</li>
+    </ol>
+      </li>
+      <li><strong>Eat (2)</strong>
+<ol>
+          <li><a href="#POIUniversityCenter">A.K Hinds University Center</a></li>
+          <li><a href="#POIDiningHall">Courtyard Dining Hall</a></li>
+        </ol>
+      </li>
+      <li><strong>Enjoy (6)</strong>
+<ol>
+          <li><a href="#POIBardoArtsCenter">Bardo Arts Center</a></li>
+          <li><a href="#POICatamountClothingAndGifts">Catamount Clothing And Gifts</a></li>
+          <li><a href="#POICRC">CRC</a></li>
+          <li><a href="#POIEnjoyHunterLibrary">Hunter Library</a></li>
+          <li><a href="#POIRamseyCenter">Ramsey Center</a></li>
+          <li><a href="#POIUniversityBookstore">University Bookstore</a></li>
+        </ol>
+      </li>
+      <li><strong>Inquire (3)</strong>
+        <ol>
+          <li><a href="#POIBirdBuilding">Bird Building - Student Health Services</a></li>
+          <li><a href="#POICampusSaftey">Campus Saftey - University &quot;Police&quot;</a></li>
+          <li><a href="#POIKillianAnnex">Killian Annex - &quot;One Stop&quot;</a></li>
+</ol>
+      </li>
+    </ol>
+  </li>
+</ol>
+<h2><strong>II. Other Tests</strong></h2>
+<ol>
+  <li>Header</li>
+  <li><a href="#ImageGallery">Images</a></li>
+  <li><a href="#Toolbars">Toolbars</a></li>
+  <li>Turn by Turn</li>
+  <li><a href="#BackingScenarios">Backing up scenarios</a></li>
+</ol>
+<hr>
+<h1><a name="Homepage"></a>Home page (index.html)</h1>
+<blockquote>
+  <p>Test file: <a href="home.html">Home.htm 
+  </a></p>
+</blockquote>
+<ol>
+  <ul>	
+    <li>verifyTextPresent: <strong>Connect</strong></li>
+    <li>verifyTextPresent: <strong>Tour</strong></li>
+    <li>verifyTextPresent: <strong>Parking</strong></li>
+    <li>verifyTextPresent: <strong>Weather by Local Yokel Weather</strong></li>	
+    <li>verifyTextPresent: <strong>About</strong><br>
+    </li>
+  </ul>
+</ol>
+<h1><a name="TourPage"></a>Tour page (tour.html) </h1>
+
+<ol>
+  <li><a href="Tour.html">Tour.htm</a></li></br>
+        <ul>
+          <li>verifyTextPresent - Learn</li>
+	  <li>verifyTextPresent - Live</li>
+	  <li>verifyTextPresent - Eat</li>
+          <li>verifyTextPresent - Enjoy</li>
+          <li>verifyTextPresent - Inquire</li>
+        </ul>
+</ol>
+<h1><a name="AboutPage"></a>About page (about.html) </h1>
+
+<ol>
+  <li><a href="About-ToolBar.html">About.htm</a></li></br>
+        <ul>
+          <li>verifyTitle - Western Carolina University Tour</li>
+	  <li>verifyTextPresent - CIS 465 Professor:</li>
+	  <li>verifyTextPresent - Computer Information Systems</li>
+          <li>verifyTextPresent - College of Business</li>
+          <li>verifyTextPresent - Western Carolina University</li>
+        </ul>
+</ol>
+<h1><a name="ParkingPage"></a>Parking page (vistorParking.html) 
+</h1>
+<tr>
+  <ol>
+    <li><a href="Parking ToolBar.html">Parking-toolbar.htm</a></li></br>
+    <ul>
+      <li>verifyElementPresent -  //*[@id="parking"]/div/p/a[1]</li> 
+      <li>verifyTextPresent -   Visitor PArking Information</li>	
+      <li>verifyTextPresent -	Visitors are encouraged to obtain a vi..</li>	
+      <li>verifyTextPresent -	Visitor’s Permits</li>	
+      <li>verifyTextPresent -	Parking Services</li>
+      
+    </ul>
+  </ol>
+</tr>
+<h1><a name="POIListPages"></a>POI List Pages (POIList.html)</h1>
+<ol>
+  <li><a id="POILearn"></a><a href="TourLearn-Toolbar.html">TourLearn-Toolbar.html</a></li>
+  </br>
+  <ul>
+    
+    <li>verifyTextPresent 	Belk Building</li>
+    <li>verifyTextPresent 	Center for Applied Technology - CAT</li>
+    <li>verifyTextPresent 	Cordelia Camp Building</li>
+    <li>verifyTextPresent 	Coulter Building</li>
+    <li>verifyTextPresent 	Forsyth Building</li>
+    <li>verifyTextPresent 	Health and Human Sciences (HHS)</li>
+    <li>verifyTextPresent 	Killian Building</li>
+    <li>verifyTextPresent 	McKee Building</li>
+    <li>verifyTextPresent 	Natural Science Building</li>
+    <li>verifyTextPresent 	Old Student Union</li>
+    <li>verifyTextPresent 	Reid Building</li>
+    <li>verifyTextPresent 	Stillwell Building</li>
+    <li>verifyTitle             Western Carolina University Tour</li>
+   
+      <br>
+    </li>
+  </ul>
+  <li><a id="POILive"></a><a href="TourLive-Toolbar.html">TourLive-Toolbar.html</a></li>
+  </br>
+  <ul>
+    
+    <li>verifyTextPresent -	Balsam Hall</li>
+    <li>verifyTextPresent -	Blue Ridge Hall</li>
+    <li>verifyTextPresent -	Buchanan Hall</li>
+    <li>verifyTextPresent -	Scott Hall</li>
+    <li>verifyTextPresent -	Walker Hall</li>
+    <li>verifyTitle             Western Carolina University Tour</li>
+    
+      <br>
+    </li>
+  </ul>
+  <li><a id="POIEat"></a><a href="TourEat-Toolbar.html">TourEat-Toolbar.html</a></li>
+  </br>
+  <ul>
+    
+    <li>verifyTextPresent -	A.K. Hinds University Center</li>
+    <li>verifyTextPresent -	Courtyard Dining Hall</li>
+     <li>verifyTitle             Western Carolina University Tour</li>
+      <br>
+    </li>
+  </ul>
+  <li><a id="POIEnjoy"></a><a href="TourEnjoy-Toolbar.html">TourEnjoy-Toolbar.html</a></li>
+  </br>
+  <ul>
+    
+    <li>verifyTextPresent -	Bardo Arts Center</li>
+    <li>verifyTextPresent -	Campus Recreation Center</li>
+    <li>verifyTextPresent -	Catamount Clothing & Gifts</li>
+    <li>verifyTextPresent -	Hunter Library</li>
+    <li>verifyTextPresent -	Ramsey Center</li>
+    <li>verifyTextPresent -	University Bookstore</li>
+    <li>verifyTitle             Western Carolina University Tour</li>
+      <br>
+    </li>
+  </ul>
+
+     <li><a id="POIInquire"></a><a href="TourInquire.html">TourInquire.html</a></li>
+  </br>
+  <ul>
+    
+    <li>verifyTextPresent -	Campus Saftey</li>
+    <li>verifyTextPresent -	HFR Administration Building</li>
+    <li>verifyTextPresent -	Killian Annex - "One Stop"</li>
+    <li>verifyTextPresent -	Bird Building - Student Health Services</li>
+    <li>verifyTitle             Western Carolina University Tour</li>
+      <br>
+    </li>
+  </ul>
+
+
+
+
+
+
+
+</ol>
+<h1></h1>
+<h1><a id="POIPages"></a>POI pages</h1>
+<ol>
+  <li><a name="POIDiningHall" id="POIDinningHall"></a><a href="POI_Eat_DinningHall.html">POI_Eat_DinningHall.html</a></li>
+  <br>
+  <ul>
+    <li>open -	/tamichael1/</li>
+    <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+    <li>clickAndWait -	link=Eating</li>
+    <li>clickAndWait -	//ul[@id='lstPOIs']/li[2]/div/div/a/span</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+    <li>click -	//div[@id='description']/h3/a/span</li>
+    <li>click -	css=div.shownav.togglenav</li>
+    <li>click -	//div[@id='poi']/div[3]/div[2]</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="directions"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="settings"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+  </ul>
+  <li><a id="POIUniversityCenter"></a><a href="POI_Eat_UniversityCenter.html">POI_Eat_UniversityCenter.html</a></li>
+  <br>
+  <ul>
+    <li>open -	/tamichael1/</li>
+    <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+    <li>clickAndWait -	link=Eating</li>
+    <li>clickAndWait -	css=span.title</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+    <li>click -	//div[@id='description']/h3/a/span</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="directions"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="settings"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+  </ul>
+  <li><a id="POIBardoArtsCenter"></a><a href="POI_Enjoy_BardoArtsCenter.html">POI_Enjoy_BardoArtsCenter.html</a></li>
+  <br>
+  <ul>
+    <li>open -	/tamichael1</li>
+    <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+    <li>clickAndWait -	link=Enjoying</li>
+    <li>clickAndWait -	css=span.title</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top &gt; span.ui-btn-text</li>
+    <li>click -	//div[@id='description']/h3/a/span/span</li>
+    <li>click -	css=div.shownav.togglenav</li>
+    <li>click -	//div[@id='poi']/div[3]/div[2]</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-previous &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="directions"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="settings"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+  </ul>
+  <li><a id="POICatamountClothingAndGifts"></a><a href="POI_Enjoy_CatamountClothingAndGifts.html">POI_Enjoy_CatamountClothingAndGifts.html</a></li>
+  <br>
+  <ul>
+    <li>open -	/tamichael1/</li>
+    <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+    <li>clickAndWait -	link=Enjoying</li>
+    <li>clickAndWait -	link=Catamount Clothing &amp; Gifts</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+    <li>click -	//div[@id='description']/h3/a/span</li>
+    <li>click -	css=div.shownav.togglenav</li>
+    <li>click - //div[@id='poi']/div[3]/div[2]</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="directions"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="settings"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="settings"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+  </ul>
+  <li><a id="POICRC"></a><a href="POI_Enjoy_CRC.html">POI_Enjoy_CRC.html</a></li>
+  <br>
+  <ul>
+    <li>open - /tamichael1/</li>
+    <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+    <li>clickAndWait -	link=Enjoying</li>
+    <li>clickAndWait -	//ul[@id='lstPOIs']/li[2]/div/div/a/span</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top &gt; span.ui-btn-text</li>
+    <li>click -	//div[@id='description']/h3/a/span/span</li>
+    <li>click -	css=div.shownav.togglenav</li>
+    <li>click -	//div[@id='poi']/div[3]/div[2]</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="directions"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="settings"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+  </ul>
+  <li><a id="POIEnjoyHunterLibrary"></a><a href="POI_Enjoy_HunterLibrary.html">POI_Enjoy_HunterLibrary.html</a></li>
+  <br>
+  <ul>
+    <li>open -	/tamichael1/</li>
+    <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+    <li>clickAndWait -	link=Enjoying</li>
+    <li>clickAndWait -	//ul[@id='lstPOIs']/li[4]/div/div/a/span</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top &gt; span.ui-btn-text</li>
+    <li>click -	//div[@id='description']/h3/a/span</li>
+    <li>click -	css=div.shownav.togglenav</li>
+    <li>click -	//div[@id='poi']/div[3]/div[2]</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-previous &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next.ps-toolbar-next-disabled &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="directions"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="settings"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+  </ul>
+  <li><a id="POIRamseyCenter"></a><a href="POI_Enjoy_RamseyCenter.html">POI_Enjoy_RamseyCenter.html</a></li>
+  <br>
+  <ul>
+    <li>open -	/tamichael1/</li>
+    <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+    <li>clickAndWait -	link=Enjoying</li>
+    <li>clickAndWait -	link=Ramsey Center</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+    <li>click -	//div[@id='description']/h3/a/span</li>
+    <li>click -	css=div.shownav.togglenav</li>
+    <li>click -	//div[@id='poi']/div[3]/div[2]</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="directions"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="settings"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+  </ul>
+  <li><a id="POIUniversityBookstore"></a><a href="POI_Enjoy_UniversityBookstore.html">POI_Enjoy_UniversityBookstore.html</a></li>
+  <br>
+  <ul>
+    <li>open -	/tamichael1/</li>
+    <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+    <li>clickAndWait -	link=Enjoying</li>
+    <li>clickAndWait -	//ul[@id='lstPOIs']/li[6]/div/div/a/span</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top &gt; span.ui-btn-text</li>
+    <li>click -	//div[@id='description']/h3/a/span/span</li>
+    <li>click -	css=div.shownav.togglenav</li>
+    <li>click -	//div[@id='poi']/div[3]/div[2]</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-previous &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="directions"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="settings"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+  </ul>
+  <li><a id="POIBirdBuilding"></a><a href="POI_Inquire_BirdBuilding.html">POI_Inquire_BirdBuilding.html</a></li>
+  <br>
+  <ul>
+    <li>open -	/tamichael1/</li>
+    <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+    <li>clickAndWait -	link=Inquiring</li>
+    <li>clickAndWait -	css=span.title</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top &gt; span.ui-btn-text</li>
+    <li>click -	//div[@id='description']/h3/a/span</li>
+    <li>click -	css=div.shownav.togglenav</li>
+    <li>click -	//div[@id='poi']/div[3]/div[2]</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="directions"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="settings"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+  </ul>
+  <li><a id="POICampusSaftey"></a><a href="POI_Inquire_CampusSafety.html">POI_Inquire_CampusSafety.html</a></li>
+  <br>
+  <ul>
+    <li>open -	/tamichael1/</li>
+    <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+    <li>clickAndWait -	link=Inquiring</li>
+    <li>clickAndWait -	link=Campus Safety</li>
+    <li>click - css=span.ui-btn-inner.ui-corner-top</li>
+    <li>click - //div[@id='description']/h3/a/span</li>
+    <li>click - css=div.shownav.togglenav</li>
+    <li>click - //div[@id='poi']/div[3]/div[2]</li>
+    <li>click - id=mainImage</li>
+    <li>click - css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="directions"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>click - css=div.shownav.togglenav</li>
+    <li>click - //div[@id='poi_map']/div[3]/div[2]</li>
+    <li>clickAndWait -	css=img[alt="settings"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+  </ul>
+  <li><a name="POIKillianAnnex" id="POIKillianAnnex"></a><a href="POI_Inquire_KillanAnexOneStop.html">POI_Iquire_KillanAnexOneStop.html</a></li>
+  <br>
+  <ul>
+    <li>open -	/tamichael1/</li>
+    <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+    <li>clickAndWait -	link=Inquiring</li>
+    <li>clickAndWait -	//ul[@id='lstPOIs']/li[3]/div/div/a/span</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+    <li>click -	//div[@id='description']/h3/a/span</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+    <li>click -	//div[@id='description']/h3/a/span</li>
+    <li>click -	css=div.shownav.togglenav</li>
+    <li>click -	//div[@id='poi']/div[3]/div[2]</li>
+    <li>clickAndWait -	css=img[alt="directions"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="settings"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+  </ul>
+  <a name="POIBelkBuilding" id="POIBelkBuilding"></a>
+  <li><a href="POI_Learn_BelkBuilding.html">POI_Learn_BelkBuilding.html</a></li>
+  <br>
+  <ul>
+    <li>verifyTextPresent - Belk Building</li>
+    <li>verifyElementPresent - id=mainImage</li>
+    <li>verifyTextPresent - College of Fine and Performing Arts</li>
+    <li>verifyTextPresent - School of Fine Art and Design</li>
+    <li>verifyTextPresent - College of Fine Performing Arts</li>
+    <li>verifyTextPresent - Criminal Justice Department</li>
+    <li>verifyTextPresent - The Kimmel School</li>
+    <li>verifyTextPresent - Construction Management Department</li>
+    <li>verifyTextPresent - Engineering and Technology Department</li>
+    <li>verifyTextPresent - Campus Academic Resources</li>
+    <li>verifyTextPresent - Writing and Learning Commons</li>
+  </ul>
+  <li><a id="POIBreeseGymnasium"></a><a href="POI_Learn_BreeseGymnasium.html">POI_Learn_BreeseGymnasium.html</a></li>
+  <br>
+  <ul>
+    <li>verifyTextPresent - Breese Gymnasium</li>
+    <li>verifyElementPresent - id=mainImage</li>
+    <li>verifyTextPresent - full dance studio students School of Stage and Screen WCU Dance Team historic building Breese built during New Deal era by local laborers using local materials</li>
+  </ul>
+  <li><a id="POICATBuilding"></a><a href="POI_Learn_CATBuilding.html">POI_Learn_CATBuilding.html</a></li>
+  <br>
+  <ul>
+    <li>verifyTextPresent - Center for Applied Technology - CAT</li>
+    <li>verifyElementPresent - id=mainImage</li>
+    <li>verifyTextPresent - College of Business</li>
+    <li>verifyTextPresent - Center for Professional Selling and Marketing</li>
+    <li>verifyTextPresent - The Kimmel School</li>
+    <li>verifyTextPresent - fine and performing arts communications</li>
+    <li>verifyTextPresent - photonics design programs engineering technology</li>
+  </ul>
+  <li><a id="POICordeliaBuilding"></a><a href="POI_Learn_CordeliaBuilding.html">POI_Learn_CordeliaBuilding.html</a></li>
+  <br>
+  <ul>
+    <li>verifyTextPresent - Cordelia Camp Building</li>
+    <li>verifyElementPresent - id=mainImage</li>
+    <li>verifyTextPresent - Undergraduate and Graduate Admissions</li>
+    <li>verifyTextPresent - Distance and Continuing Education</li>
+    <li>verifyTextPresent - Research and Graduate Studies</li>
+    <li>verifyTextPresent - International Programs and Services</li>
+    <li>verifyTextPresent - Division of Information Technology&rsquo;s central office</li>
+    <li>verifyTextPresent - Center for Math and Science Education</li>
+    <li>verifyTextPresent - Engineering and Technology Department</li>
+    <li>verifyTextPresent - Kneedler Child Development Center</li>
+  </ul>
+  <li><a id="POICoulterBuilding"></a><a href="POI_Learn_CoulterBuilding.html">POI_Learn_CoulterBuilding.html</a></li>
+  <br>
+  <ul>
+    <li>verifyTextPresent - Coulter Building</li>
+    <li>verifyElementPresent - id=mainImage</li>
+    <li>verifyTextPresent - Pride of the Mountains Marching Band</li>
+    <li>verifyTextPresent - Most innovative bands in the southeast</li>
+    <li>verifyTextPresent - incorporating electronics and singing into performances</li>
+    <li>verifyTextPresent - School of Music</li>
+    <li>verifyTextPresent - performance, music education, music industry, commercial and electrical music, graduate program in performance</li>
+    <li>verifyTextPresent - English Department</li>
+    <li>verifyTextPresent - literature, professional writing, motion pictures studies, english education, graduate programs in english, education and teaching, professional writing and teaching English to speakers of other languages</li>
+  </ul>
+  <li><a id="POIForsythBuilding"></a><a href="POI_Learn_ForsythBuilding.html">POI_Learn_ForsythBuilding.html</a></li>
+  <br>
+  <ul>
+    <li>verifyTextPresent - Forsyth Building</li>
+    <li>verifyElementPresent - id=mainImage</li>
+    <li>verifyTextPresent - Accounting, Finance, information systems and economics</li>
+    <li>verifyTextPresent - business administration and law, sport management, global management and strategy, entrepreneurship, sales and marketing, hospitality and tourism</li>
+    <li>verifyTextPresent - Princeton Review Best business programs</li>
+  </ul>
+  <li><a id="POIHealthAndHuman"></a><a href="POI_Learn_HealthAndHumanSciencesBuilding.html">POI_Learn_HealthAndHumanSciencesBuilding.html</a></li>
+  <br>
+  <ul>
+    <li>verifyTextPresent - Health and Human Sciences Building</li>
+    <li>verifyElementPresent - id=mainImage</li>
+    <li>verifyTextPresent - College of Health and Human Sciences</li>
+    <li>verifyTextPresent - Nursing</li>
+    <li>verifyTextPresent - Health information management</li>
+    <li>verifyTextPresent - Clinical laboratory sciences</li>
+    <li>verifyTextPresent - Communication sciences and disorders</li>
+    <li>verifyTextPresent - Emergency medical care</li>
+    <li>verifyTextPresent - Social Work</li>
+    <li>verifyTextPresent - Athletic training</li>
+    <li>verifyTextPresent - Physical therapy</li>
+  </ul>
+  <li><a id="POIHunterLibraryBuilding"></a><a href="POI_Learn_HunterLibraryBuilding.html">POI_Learn_HunterLibraryBuilding.html</a></li>
+  <br>
+  <ul>
+    <li>verifyTextPresent - Hunter Libary</li>
+    <li>verifyElementPresent - id=mainImage</li>
+    <li>verifyTextPresent - largest library west of Charlotte</li>
+    <li>verifyTextPresent - 750,000 books and periodicals</li>
+    <li>verifyTextPresent - Main level</li>
+    <li>verifyTextPresent - java city open access computers</li>
+    <li>verifyTextPresent - Lower level</li>
+    <li>verifyTextPresent - Technology Commons</li>
+  </ul>
+  <li><a id="POIKillianBuilding"></a><a href="POI_Learn_KillianBuilding.html">POI_Learn_KillianBuilding.html</a></li>
+  <br>
+  <ul>
+    <li>verifyTextPresent - Killian Building</li>
+    <li>verifyElementPresent - id=mainImage</li>
+    <li>verifyTextPresent - College of Education and Allied Professions</li>
+    <li>verifyTextPresent - Psychology</li>
+    <li>verifyTextPresent - Human Services</li>
+    <li>verifyTextPresent - Education</li>
+    <li>verifyTextPresent - Major awards</li>
+    <li>verifyTextPresent - Distinguished Program in Teacher Education</li>
+    <li>verifyTextPresent - Christa McAuliffe Excellence in Teacher Education Award</li>
+  </ul>
+  <li><a id="POINaturalScienceBuilding"></a><a href="POI_Learn_NaturalScienceBuilding.html">POI_Learn_NaturalScienceBuilding.html</a></li>
+  <br>
+  <ul>
+    <li>verifyTextPresent - Natural Science Building</li>
+    <li>verifyElementPresent - id=mainImage</li>
+    <li>verifyTextPresent - biology chemistry physics laboratories small classes research equipment classrooms professors' offices conference rooms</li>
+    <li>verifyTextPresent - Highlands Biological Research Station</li>
+  </ul>
+  <li><a id="POIOldStudentUnionBuilding"></a><a href="POI_Learn_OldStudentUnionBuilding.html">POI_Learn_OldStudentUnionBuilding.html</a></li>
+  <br>
+  <ul>
+    <li>verifyTextPresent - Old Student Union</li>
+    <li>verifyElementPresent - id=mainImage</li>
+    <li>verifyTextPresent - Formerly the University Center for old campus, now home to WCU student media</li>
+    <li>verifyTextPresent - WWCU-FM Power 90.5 (campus radio station)</li>
+    <li>verifyTextPresent - Catamount Communications (a student-run public relations firm)</li>
+    <li>verifyTextPresent - Nomad (literary magazine)</li>
+    <li>verifyTextPresent - Western Carolinian (campus news publication)</li>
+  </ul>
+  <li><a id="POIMcKeeBuilding"></a><a href="POI_Learn_McKeeBuilding.html">POI_Learn_McKeeBuilding.html</a></li>
+  <br>
+  <ul>
+    <li>verifyTextPresent - McKee Building</li>
+    <li>verifyElementPresent - id=mainImage</li>
+    <li>verifyTextPresent - Cherokee Studies</li>
+    <li>verifyTextPresent - interdisciplinary minor in Cherokee studies, graduate certificate, Native health certificate</li>
+    <li>verifyTextPresent - Human Identification Laboratory</li>
+    <li>verifyTextPresent - forensic anthropology labs studying decomposition firsthand small morgue</li>
+    <li>verifyTextPresent - History</li>
+    <li>verifyTextPresent - Modern Foreign Languages</li>
+    <li>verifyTextPresent - German Spanish Cherokee Chinese Japanese Latin French sign language</li>
+    <li>verifyTextPresent - Anthropology and sociology</li>
+    <li>verifyTextPresent - Social work</li>
+  </ul>
+  <li><a id="POIReidBuilding"></a><a href="POI_Learn_ReidBuilding.html">POI_Learn_ReidBuilding.html</a></li>
+  <br>
+  <ul>
+    <li>verifyTextPresent - Reid Gym</li>
+    <li>verifyElementPresent - id=mainImage</li>
+    <li>verifyTextPresent - indoor swimming pool, gynmastics floor, bowling alley</li>
+    <li>verifyTextPresent - Basketball court area</li>
+    <li>verifyTextPresent - Academics</li>
+    <li>verifyTextPresent - Physical education</li>
+    <li>verifyTextPresent - Parks and recreation management</li>
+    <li>verifyTextPresent - Health and human performance</li>
+    <li>verifyTextPresent - Intramural sports</li>
+    <li>verifyTextPresent - Intercollegiate club sports</li>
+  </ul>
+  <li><a id="POIStillwellBuilding"></a><a href="POI_Learn_StillwellBuilding.html">POI_Learn_StillwellBuilding.html</a></li>
+  <br>
+  <ul>
+    <li>verifyTextPresent - Stillwell Building</li>
+    <li>verifyElementPresent - id=mainImage</li>
+    <li>verifyTextPresent - College of Arts and Sciences</li>
+    <li>verifyTextPresent - Mathematics and computer science</li>
+    <li>verifyTextPresent - Political science and public affairs</li>
+    <li>verifyTextPresent - Chemistry and physics (including environmental science)</li>
+    <li>verifyTextPresent - Geosciences and natural resources</li>
+    <li>verifyTextPresent - Geology</li>
+    <li>verifyTextPresent - Natural resource conservation and management</li>
+    <li>verifyTextPresent - Earth science education</li>
+    <li>verifyTextPresent - Geography</li>
+    <li>verifyTextPresent - Philosophy and religion</li>
+  </ul>
+  <li><a id="POIUniversityBookstoreBuilding"></a><a href="POI_Learn_UniversityBookstoreBuilding.html">POI_Learn_UniversityBookstoreBuilding.html</a></li>
+  <br>
+  <ul>
+    <li>verifyTextPresent - University Bookstore</li>
+    <li>verifyElementPresent - id=mainImage</li>
+    <li>verifyTextPresent - wide selection of books and supplemental texts</li>
+    <li>verifyTextPresent - Graduate texts gowns related materials</li>
+    <li>verifyTextPresent - rental department houses endergraduate rental texts</li>
+  </ul>
+  <li><a href="POI_Live_BalsamHall.html">POI_Live_BalsamHall.html</a></li>
+  <br>
+  <ul>
+    <li>open -	/tamichael1/</li>
+    <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+    <li>clickAndWait -	link=Live</li>
+    <li>clickAndWait -	link=Balsam Hall</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+    <li>click -	//div[@id='description']/h3/a/span</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+    <li>click -	//div[@id='description']/h3/a/span</li>
+    <li>click -	css=div.shownav.togglenav</li>
+    <li>click -	//div[@id='poi']/div[3]/div[2]</li>
+    <li>clickAndWait -	css=img[alt="directions"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="settings"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+  </ul>
+  <li><a href="POI_Live_BlueRidgeHall.html">POI_Live_BlueRidgeHall.html</a></li>
+  <br>
+  <ul>
+    <li>open -	/tamichael1/</li>
+    <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+    <li>clickAndWait -	link=Live</li>
+    <li>clickAndWait -	link=Blue Ridge Hall</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+    <li>click -	//div[@id='description']/h3/a/span</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+    <li>click -	//div[@id='description']/h3/a/span</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="directions"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="settings"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>click -	css=div.shownav.togglenav</li>
+    <li>click -	//div[@id='poi']/div[3]/div[2]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+  </ul>
+  <li><a href="POI_Live_BuchananHall.html">POI_Live_BuchananHall.html</a></li>
+  <br>
+  <ul>
+    <li>open -	/tamichael1/</li>
+    <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+    <li>clickAndWait -	link=Live</li>
+    <li>clickAndWait -	link=Buchanan Hall</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+    <li>click -	//div[@id='description']/h3/a/span</li>
+    <li>click -	css=div.shownav.togglenav</li>
+    <li>click -	//div[@id='poi']/div[3]/div[2]</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-previous &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="directions"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="settings"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+  </ul>
+  <li><a href="POI_Live_ScottHall.html">POI_Live_ScottHall.html</a></li>
+  <br>
+  <ul>
+    <li>open -	/tamichael1/</li>
+    <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+    <li>clickAndWait -	link=Live</li>
+    <li>clickAndWait -	link=Scott Hall</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+    <li>click -	//div[@id='description']/h3/a/span</li>
+    <li>click -	css=div.shownav.togglenav</li>
+    <li>click -	//div[@id='poi']/div[3]/div[2]</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next &gt; div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="directions"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="settings"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+  </ul>
+  <li><a href="POI_Live_WalkerHall.html">POI_Live_WalkerHall</a></li>
+  <br>
+  <ul>
+    <li>open -	/tamichael1/</li>
+    <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+    <li>clickAndWait -	link=Live</li>
+    <li>clickAndWait -	//ul[@id='lstPOIs']/li[5]/div/div/a/span</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+    <li>click -	//div[@id='description']/h3/a/span</li>
+    <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+    <li>click -	//div[@id='description']/h3/a/span</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="directions"]</li>
+    <li>clickAndWait -	css=img[alt="map"]</li>
+    <li>clickAndWait -	css=img[alt="settings"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+  </ul>
+</ol>
+<p>&nbsp;</p>
+<h1><a name="ImageGallery"></a>Image Gallery </h1>
+<ol>
+  <li><a href="Image Gallery 2.html">Image Gallery 2.html</a></li>
+  </br>
+  <ul>
+    <li>open -	/tamichael1/index.html</li>
+    <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+    <li>clickAndWait -	link=Eating</li>
+    <li>clickAndWait -	link=A.K. Hinds University Center</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-play > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	//ul[@id='lstPOIs']/li[2]/div/div/a/span</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-play > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+  </ul>
+  <br>
+<li><a href="Image Gallery 3.html">Image Gallery 3.html</a></li>
+  </br>
+  <ul>
+    <li>open -	/tamichael1/index.html</li>
+    <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+    <li>clickAndWait -	link=Living</li>
+    <li>clickAndWait -	link=Balsam Hall</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-play > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-next > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-previous > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-previous > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-previous > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	link=Buchanan Hall</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-next > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-previous > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	//ul[@id='lstPOIs']/li[5]/div/div/a/span</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	link=Enjoying</li>
+    <li>clickAndWait -	link=Bardo Arts Center</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-next > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-previous > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	//ul[@id='lstPOIs']/li[2]/div/div/a/span</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-next > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-next > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-previous > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-previous > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-previous > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-previous > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-play > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=span.ui-btn-inner</li>
+    <li>clickAndWait -	link=University Bookstore</li>
+    <li>click -	id=mainImage</li>
+    <li>click -	css=div.ps-toolbar-next > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-previous > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-play > div.ps-toolbar-content</li>
+    <li>click -	css=div.ps-toolbar-content</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+    <li>clickAndWait -	css=img[alt="back"]</li>
+  </ul>
+</ol>
+<tr>
+  <p>&nbsp;</p>
+  <h1><a name="Toolbars"></a>Toolbars</h1>
+  <ol>
+    <li><a href="ToolCategories - ToolBar.html">ToolCategories - ToolBar.html</a></li></br>
+    <ul>
+      <li>open -	/tamichael1/</li>
+      <li>verifyTitle -	Western Carolina University Tour</li>
+      <li>verifyTextPresent -	Connect</li>
+      <li>verifyTextPresent -	Parking</li>
+      <li>verifyTextPresent -	Tour</li>
+      <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span 	</li>
+      <li>click -	//div[@id='categories_list']/div[3]/div[2] 	</li>
+      <li>verifyTextPresent -	Learn</li>
+      <li>verifyTextPresent -	Live</li>
+      <li>verifyTextPresent -	Eat</li>
+      <li>verifyTextPresent - Enjoy</li>
+      <li>verifyTextPresent -	Inquire</li>
+      <li>clickAndWait -	css=img[alt="back"]<br>
+        <br>
+      </li>
+    </ul>
+    <li><a href="ToolInquire-Toolbar.html">ToolInquire-Toolbar.html</a></li></br>
+    <ul>
+      <li>open 	/tamichael1/</li>
+      <li>clickAndWait 	//div[@id='home']/div[2]/div/div/a[2]/span</li>	
+      <li>clickAndWait 	link=Inquire</li> 	
+      <li>click 	css=div.shownav.togglenav</li> 	
+      <li>verifyTextPresent 	Bird Building - Student Health Services</li> 	
+      <li>verifyTextPresent 	Campus Safety</li> 	
+      <li>verifyTextPresent 	Killian Annex - "One Stop"</li> 	
+      <li>verifyTextPresent 	About</li> 	
+      <li>click 	//div[@id='poi_list']/div[3]/div[2]</li> 	
+      <li>click 	css=#icon-map > span.ui-btn-inner</li> 	
+      <li>click 	css=#icon-list > span.ui-btn-inner</li> 	
+      <li>click 	css=span.ui-btn-text</li> 	
+      <li>click 	css=#poi_map > div.ui-header.ui-bar-a > #icon-back > span.ui-btn-inner > span.ui-btn-text</li> 	
+      <li>clickAndWait 	css=img[alt="back"]</li> 	
+      <li>clickAndWait 	css=img[alt="back"]</li>
+    </ul>
+  </ol>
+</tr>
+<ol>
+  <li>Test file: <a href="connect-toolbar.html">Connect-Toolbar.htm <br>
+    </a></li>
+  <ul>
+    <li>clickAndWait 	css=span.ui-btn-inner.ui-corner-top</li>
+    <li>click 	css=div.shownav.togglenav</li>
+    <li>verifyTextPresent: <strong>Home</strong></li>
+    <li>verifyTextPresent: <strong>Tour</strong></li>
+    <li>verifyTextPresent: <strong>Parking</strong></li>
+    <li>verifyTextPresent: <strong>About</strong></li>
+    <li>click 	//div[@id='categories_list']/div[3]/div[2] </li>
+    <li>verifyTextPresent: <strong>Facebook</strong></li>
+    <li>verifyTextPresent: <strong>Twitter</strong></li>
+    <li>clickAndWait 	css=span.ui-btn-text</li>
+  </ul>
+</ol>
+<tr>
+  <p><br>
+    <br>
+  </p>
+  <h1><a name="BackingScenarios"></a>Backing Scenarios </h1>
+  <ol>
+    <ol>
+      <li><a href="Back Scenario 1.html">Back Scenario 2.html</a></li>
+      </br>
+      <ul>
+        <li>open - /tamichael1/</li>
+        <li>clickAndWait - //div[@id='home']/div[2]/div/div/a[3]/span</li>
+        <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+        <li>click -	//div[@id='parking']/h3/a/span</li>
+        <li>click -	css=div.shownav.togglenav</li>
+        <li>clickAndWait - css=img[alt="back"]</li>
+        <li>clickAndWait - //div[@id='home']/div[2]/div/div/a[2]/span</li>
+        <li>clickAndWait -	link=Eating</li>
+        <li>clickAndWait -	link=Courtyard Dining Hall</li>
+        <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+        <li>click -	//div[@id='description']/h3/a/span</li>
+        <li>click -	css=div.shownav.togglenav</li>
+        <li>click -	//div[@id='poi']/div[3]/div[2]</li>
+        <li>click -	id=mainImage</li>
+        <li>click -	css=div.ps-toolbar-next > div.ps-toolbar-content</li>
+        <li>click -	css=div.ps-toolbar-next > div.ps-toolbar-content</li>
+        <li>click -	css=div.ps-toolbar-next > div.ps-toolbar-content</li>
+        <li>click -	css=div.ps-toolbar-next > div.ps-toolbar-content</li>
+        <li>click 	css=div.ps-toolbar-content</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+      </ul>
+      <li><a href="Back Scenario 2.html">Back Scenario 3.html</a></li>
+      </br>
+      <ul>
+        <li>open -	/tamichael1/</li>
+        <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+        <li>click -	css=div.shownav.togglenav</li>
+        <li>clickAndWait -	//div[@id='categories_list']/div[3]/div[3]/ul/li[4]/a/span/span[2]</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>click -	css=div.shownav.togglenav</li>
+        <li>clickAndWait -	//div[@id='categories_list']/div[3]/div[3]/ul/li[2]/a/span/span[2]</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>click -	css=div.shownav.togglenav</li>
+        <li>clickAndWait -	//div[@id='categories_list']/div[3]/div[3]/ul/li/a/span/span[2]</li>
+      </ul>
+      <li><a href="Back Scenario 3.html">Back Scenario 4.html</a></li>
+      </br>
+      <ul>
+        <li>open -	/tamichael1/index.html</li>
+        <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[3]/span</li>
+        <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+        <li>click -	//div[@id='parking']/h3/a/span</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+        <li>clickAndWait -	link=Eating</li>
+        <li>clickAndWait -	link=A.K. Hinds University Center</li>
+        <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+        <li>click -	//div[@id='description']/h3/a/span</li>
+        <li>click -	css=div.shownav.togglenav</li>
+        <li>clickAndWait -	//div[@id='poi']/div[3]/div[3]/ul/li/a/span/span[2]</li>
+      </ul>
+      <li><a href="Back Scenario 4.html">Back Scenario 5.html</a></li>
+      </br>
+      <ul>
+        <li>open -	/tamichael1/index.html</li>
+        <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[3]/span</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+        <li>clickAndWait -	link=Living</li>
+        <li>clickAndWait -	link=Scott Hall</li>
+        <li>click -	id=mainImage</li>
+        <li>click -	css=div.ps-toolbar-next > div.ps-toolbar-content</li>
+        <li>click -	css=div.ps-toolbar-next > div.ps-toolbar-content</li>
+        <li>click -	css=div.ps-toolbar-next > div.ps-toolbar-content</li>
+        <li>click -	css=div.ps-toolbar-next > div.ps-toolbar-content</li>
+        <li>click -	css=div.ps-toolbar-content</li>
+        <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+        <li>click -	//div[@id='description']/h3/a/span</li>
+        <li>click -	css=span.ui-btn-inner.ui-corner-top</li>
+        <li>click -	//div[@id='description']/h3/a/span</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	link=Blue Ridge Hall</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	link=Walker Hall</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+      </ul>
+      <li><a href="Back Scenario 5.html">Using the toolbar.html</a></li>
+      </br>
+      <ul>
+        <li>open -	/tamichael1/index.html</li>
+        <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+        <li>clickAndWait -	link=Enjoying</li>
+        <li>clickAndWait -	link=Catamount Clothing & Gifts</li>
+        <li>click -	css=div.shownav.togglenav</li>
+        <li>clickAndWait -	//div[@id='poi']/div[3]/div[3]/ul/li[4]/a/span/span[2]</li>
+        <li>click -	//div[@id='about']/div[2]/div[2]/div[2]/h3/a/span</li>
+        <li>click -	css=span.ui-btn-inner.ui-corner-bottom</li>
+        <li>click -	css=div.shownav.togglenav</li>
+        <li>clickAndWait -	//div[@id='about']/div[3]/div[3]/ul/li[2]/a/span/span[2] </li>
+        <li>clickAndWait -	css=span.ui-btn-inner.ui-corner-top</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+      </ul>
+      <li><a href="Back Scenario 6.html">Back Scenario 7.html</a></li>
+      </br>
+      <ul>
+        <li>open -	/tamichael1/index.html</li>
+        <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>
+        <li>clickAndWait -	link=Learning</li>
+        <li>clickAndWait -	link=Belk Building</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	//ul[@id='lstPOIs']/li[2]/div/div/a/span</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	//ul[@id='lstPOIs']/li[3]/div/div/a/span</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	//ul[@id='lstPOIs']/li[6]/div/div/a/span</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	//ul[@id='lstPOIs']/li[8]/div/div/a/span</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	link=Old Student Union</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	link=Living</li>
+        <li>clickAndWait -	link=Blue Ridge Hall</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	link=Scott Hall</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+        <li>clickAndWait -	css=img[alt="back"]</li>
+      </ul>
+      </br>
+    </ol>
+    <p>&nbsp;</p>
+    </br>
+    <li><a href="Toolbar 1.html">Toolbar 1.html</a></li></br>
+    <ul>
+      <li>open -	/tamichael1/index.html</li> 	
+      <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>  	
+      <li>clickAndWait -	link=Inquiring</li>  	
+      <li>click -	css=img[alt="map"]</li>  	
+      <li>click -	css=#icon-list > span.ui-btn-inner > span.ui-btn-text</li>  	
+      <li>clickAndWait -	link=Bird Building - Student Health Services</li>  	
+      <li>clickAndWait -	css=img[alt="directions"]</li>  	
+      <li>clickAndWait -	css=img[alt="map"]</li>  	
+      <li>clickAndWait -	css=img[alt="settings"]</li>  	
+      <li>clickAndWait -	css=img[alt="back"]</li>  	
+      <li>clickAndWait -	css=img[alt="back"]</li>  	
+      <li>clickAndWait -	link=Campus Safety</li>  	
+      <li>clickAndWait -	css=img[alt="directions"]</li>  	
+      <li>clickAndWait -	css=img[alt="map"]</li>  	
+      <li>clickAndWait -	css=img[alt="settings"]</li>  	
+      <li>clickAndWait -	css=img[alt="back"]</li>  	
+      <li>clickAndWait -	css=img[alt="back"]</li>  	
+      <li>clickAndWait -	link=Killian Annex - "One Stop"</li>  	
+      <li>clickAndWait -	css=img[alt="directions"]</li>  	
+      <li>clickAndWait -	css=img[alt="map"]</li>  	
+      <li>clickAndWait -	css=img[alt="settings"]</li>  	
+      <li>clickAndWait -	css=img[alt="back"]</li>  	
+      <li>clickAndWait -	css=img[alt="back"]</li>  	
+      <li>click -	css=img[alt="back"]</li>  	
+      <li>click -	css=#poi_map > div.ui-header.ui-bar-a > #icon-back > span.ui-btn-inner > span.ui-btn-text > img[alt="back"]</li>  	
+      <li>clickAndWait -	css=img[alt="back"]</li>  	
+      <li>clickAndWait -	css=img[alt="back"]</li>
+    </ul>
+    <li><a href="Toolbar 2.html">Toolbar 2.html</a></li></br>
+    <ul>
+      <li>open -	/tamichael1/index.html</li> 	
+      <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>  	
+      <li>clickAndWait -	link=Enjoying</li>  	
+      <li>clickAndWait -	link=Catamount Clothing & Gifts</li>  	
+      <li>click -	css=div.shownav.togglenav</li>  	
+      <li>clickAndWait -	//div[@id='poi']/div[3]/div[3]/ul/li[3]/a/span/span[2]</li>  	
+      <li>click -	css=span.ui-btn-inner.ui-corner-top</li>  	
+      <li>click -	//div[@id='parking']/h3/a/span</li>  	
+      <li>click -	css=div.shownav.togglenav</li>  	
+      <li>clickAndWait -	//div[@id='about']/div[3]/div[3]/ul/li[4]/a/span/span[2]</li>  	
+      <li>click -	css=span.ui-btn-inner.ui-corner-top</li>  	
+      <li>click -	css=span.ui-btn-inner.ui-corner-top</li>  	
+      <li>click -	//div[@id='about']/div[2]/div[2]/div[2]/h3/a/span</li>  	
+      <li>click -	//div[@id='about']/div[2]/div[2]/div[2]/h3/a/span</li>  	
+      <li>click -	css=span.ui-btn-inner.ui-corner-bottom</li>  	
+      <li>click -	//div[@id='about']/div[2]/div[2]/div[3]/h3/a/span</li>  	
+      <li>click -	css=div.shownav.togglenav</li>  	
+      <li>clickAndWait -	//div[@id='about']/div[3]/div[3]/ul/li[3]/a/span</li>  	
+      <li>clickAndWait -	link=Enjoying</li>  	
+      <li>clickAndWait -	link=Hunter Library</li>  	
+      <li>click -	css=div.shownav.togglenav</li>  	
+      <li>clickAndWait -	//div[@id='poi']/div[3]/div[3]/ul/li/a/span/span[2]</li>
+    </ul></br>
+    <li><a href="Turn-by-Turn 1.html">Turn-by-Turn.html</a></li></br>
+    <ul>
+      <li>open -	/tamichael1/index.html</li> 	
+      <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li> 	
+      <li>clickAndWait -	link=Learning</li> 	
+      <li>click -	css=img[alt="map"]</li> 	
+      <li>click -	css=img[alt="list"]</li> 	
+      <li>clickAndWait -	link=Belk Building</li> 	
+      <li>clickAndWait -	css=#icon-directions > span.ui-btn-inner</li> 	
+      <li>clickAndWait -	css=img[alt="map"]</li> 	
+      <li>click -	css=div.shownav.togglenav</li> 	
+      <li>clickAndWait -	//div[@id='poi_map']/div[3]/div[3]/ul/li/a/span/span[2]</li> 	
+      <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li> 	
+      <li>clickAndWait -	link=Living</li> 	
+      <li>click -	css=img[alt="map"]</li> 	
+      <li>click -	css=img[alt="list"]</li> 	
+      <li>clickAndWait -	link=Balsam Hall</li> 	
+      <li>clickAndWait -	css=img[alt="directions"]</li> 	
+      <li>clickAndWait -	css=img[alt="map"]</li> 	
+      <li>click -	css=div.shownav.togglenav</li> 	
+      <li>clickAndWait 	//div[@id='poi_map']/div[3]/div[3]/ul/li/a/span/span[2]</li>
+    </ul>
+    <li><a href="Turn-by-Turn 2.html">Turn-by-Turn.html</a></li></br>
+    <ul>
+      <li>open -	/tamichael1/index.html</li> 	
+      <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li> 	
+      <li>clickAndWait -	link=Eating</li> 	
+      <li>click -	css=img[alt="map"]</li> 	
+      <li>click -	css=img[alt="list"]</li> 	
+      <li>clickAndWait -	link=A.K. Hinds University Center</li> 	
+      <li>clickAndWait -	css=img[alt="directions"]</li> 	
+      <li>clickAndWait -	css=img[alt="map"]</li> 	
+      <li>clickAndWait -	css=img[alt="settings"]</li> 	
+      <li>clickAndWait -	css=img[alt="back"]</li> 	
+      <li>clickAndWait -	css=img[alt="back"]</li> 	
+      <li>clickAndWait -	//ul[@id='lstPOIs']/li[2]/div/div/a/span</li> 	
+      <li>clickAndWait -	css=#icon-directions > span.ui-btn-inner</li> 	
+      <li>clickAndWait -	css=#icon-map > span.ui-btn-inner</li> 	
+      <li>clickAndWait -	css=img[alt="settings"]</li> 	
+      <li>clickAndWait -	css=img[alt="back"]</li> 	
+      <li>clickAndWait -	css=img[alt="back"]</li> 	
+      <li>click -	css=img[alt="back"]</li> 	
+      <li>click -	css=#poi_map > div.ui-header.ui-bar-a > #icon-back > span.ui-btn-inner > span.ui-btn-text > img[alt="back"]</li> 	
+      <li>clickAndWait -	css=img[alt="back"]</li> 	
+      <li>clickAndWait -	link=Enjoying</li> 	
+      <li>click -	css=#icon-map > span.ui-btn-inner</li> 	
+      <li>click -	css=#icon-list > span.ui-btn-inner</li> 	
+      <li>clickAndWait -	link=Bardo Arts Center</li> 	
+      <li>clickAndWait -	css=img[alt="directions"]</li> 	
+      <li>clickAndWait -	css=img[alt="map"]</li> 	
+      <li>clickAndWait -	css=img[alt="settings"]</li> 	
+      <li>clickAndWait -	css=img[alt="back"]</li> 	
+      <li>clickAndWait -	css=img[alt="back"]</li> 	
+      <li>clickAndWait -	link=Campus Recreation Center</li> 	
+      <li>clickAndWait -	css=img[alt="directions"]</li> 	
+      <li>clickAndWait -	css=img[alt="map"]</li> 	
+      <li>click -	css=div.shownav.togglenav</li> 	
+      <li>clickAndWait -	//div[@id='poi_map']/div[3]/div[3]/ul/li/a/span/span[2]</li>
+    </ul>
+    <li><a href="Turn-by-Turn 3.html">Turn-by-Turn 3.html</a></li></br>
+    <ul>
+      <li>open -	/tamichael1/index.html</li> 	
+      <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li>  	
+      <li>clickAndWait -	link=Inquiring</li>  	
+      <li>click -	css=img[alt="map"]</li>  	
+      <li>click -	css=#icon-list > span.ui-btn-inner > span.ui-btn-text</li>  	
+      <li>clickAndWait -	link=Bird Building - Student Health Services</li>  	
+      <li>clickAndWait -	css=img[alt="directions"]</li>  	
+      <li>clickAndWait -	css=img[alt="map"]</li>  	
+      <li>clickAndWait -	css=img[alt="settings"]</li>  	
+      <li>clickAndWait -	css=img[alt="back"]</li>  	
+      <li>clickAndWait -	css=img[alt="back"]</li>  	
+      <li>clickAndWait -	link=Campus Safety</li>  	
+      <li>clickAndWait -	css=img[alt="directions"]</li>  	
+      <li>clickAndWait -	css=img[alt="map"]</li>  	
+      <li>clickAndWait -	css=img[alt="settings"]</li>  	
+      <li>clickAndWait -	css=img[alt="back"]</li>  	
+      <li>clickAndWait -	css=img[alt="back"]</li>  	
+      <li>clickAndWait -	link=Killian Annex - "One Stop"</li>  	
+      <li>clickAndWait -	css=img[alt="directions"]</li>  	
+      <li>clickAndWait -	css=img[alt="map"]</li>  	
+      <li>clickAndWait -	css=img[alt="settings"]</li>  	
+      <li>clickAndWait -	css=img[alt="back"]</li>  	
+      <li>clickAndWait -	css=img[alt="back"]</li>  	
+      <li>click -	css=img[alt="back"]</li>  	
+      <li>click -	css=#poi_map > div.ui-header.ui-bar-a > #icon-back > span.ui-btn-inner > span.ui-btn-text > img[alt="back"]</li>  	
+      <li>clickAndWait -	css=img[alt="back"]</li>  	
+      <li>clickAndWait -	css=img[alt="back"]</li>
+    </ul></br>
+    <li><a href="Using the toolbar.html">Using the toolbar 2.html</a></li></br>
+    <ul>
+      <li>open -	/tamichael1/index.html</li>	
+      <li>clickAndWait -	css=span.ui-btn-inner.ui-corner-top</li> 	
+      <li>click -	css=div.shownav.togglenav</li> 	
+      <li>clickAndWait -	//div[@id='categories_list']/div[3]/div[3]/ul/li/a/span/span[2]</li> 	
+      <li>clickAndWait -	//div[@id='home']/div[2]/div/div/a[2]/span</li> 	
+      <li>clickAndWait -	link=Learning</li> 	
+      <li>clickAndWait -	link=Health and Human Sciences (HHS)</li> 	
+      <li>click -	css=span.ui-btn-inner.ui-corner-top</li> 	
+      <li>click -	//div[@id='description']/h3/a/span</li> 	
+      <li>click -	id=mainImage</li> 	
+      <li>click -	css=div.ps-toolbar-content</li> 	
+      <li>clickAndWait -	css=img[alt="back"]</li> 	
+      <li>clickAndWait -	css=img[alt="back"]</li> 	
+      <li>clickAndWait -	css=img[alt="back"]</li>               
+    </ul>
+    <li><a href="Using the toolbar 2.html">Using the toolbar.html</a></li><br />
+    <ul>
+      <li>open 	/tamichael1/index.html</li> 	
+      <li>clickAndWait 	//div[@id='home']/div[2]/div/div/a[2]/span</li>  	
+      <li>clickAndWait 	link=Eating</li> 
+      <li>clickAndWait 	css=span.ui-btn-inner</li>  	
+      <li>clickAndWait 	link=Living</li>  	
+      <li>clickAndWait 	link=Buchanan Hall</li>  	
+      <li>click 	css=span.ui-btn-inner.ui-corner-top</li>  	
+      <li>click 	//div[@id='description']/h3/a/span</li>  	
+      <li>click 	css=div.shownav.togglenav</li>  	
+      <li>clickAndWait 	//div[@id='poi']/div[3]/div[3]/ul/li/a/span/span[2]</li>
+    </ul></br>
+  </ol>
+  <ol>
+  </ol>
+</tr>
+</body>
+</html>

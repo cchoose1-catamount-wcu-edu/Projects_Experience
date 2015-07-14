@@ -1,0 +1,326 @@
+﻿/*Program: Dillsboro - Fall 2012 Skin*/
+/*Author: Britt Cline*/
+/*Date:12/1/2012*/
+/*Description: Controls all client side themes for JQuery Mobile Pages*/
+
+/*GENERAL SHARED THEME STYLES*/
+            * {
+                border:0;
+                text-shadow:none;
+            }
+            .ui-page {
+                background: #FFF;
+                background-size: cover;
+                -webkit-background-size: cover;
+                background-repeat:no-repeat;
+                min-width:320px;
+                padding-top:70px;
+                padding-bottom:100px;
+            }
+            .ui-header {
+                background: #fff;
+                background-size:cover;
+                min-width:320px;
+                position:fixed;
+                top:0;
+                left:0;
+                width:100%;
+                z-index:1000;
+            }
+            .ui-header #headerlogo, #headerlogo_2 {
+                margin:0 auto;
+                padding: 6px;
+                max-height:54px;
+                max-width:400px;
+                display:block;
+            }
+            .ui-header .ui-title{
+                color: #592c88;
+                font-size:small;
+                font-weight:bold;
+                margin:0 5px;
+            }
+            .ui-footer {
+                background: #fff;
+                background-size: cover;
+                min-width:320px;
+                position:fixed;
+                bottom:0;
+                left:0;
+                width:100%;
+                z-index:1000;
+            }
+            .ui-btn {
+                color:#fff;
+                /* Fallback for web browsers that doesn't support RGBa*/
+	            background: rgb(89,44,136);
+	            /* RGBa with 0.7 opacity*/
+	            background: rgba(89,44,136, 0.7);
+            }
+            .ui-btn:hover {
+                background: rgb(89,44,136);
+                background: rgba(89,44,136,1);
+            }
+            hr {
+                background-color:#c1a875;
+                height:5px;
+                margin:0;
+            }
+/*START INDEX PAGE STYLES*/
+            #home {
+            }
+            #home .ui-content {
+                background: url(../images/catamount.jpg) #fff;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                min-width: 250px;
+            }
+            #home .ui-content .ui-controlgroup {
+                padding:65% 0px 0px 0px;
+                text-align:left;
+            }
+            #home .ui-content .ui-btn {
+                text-align:left;
+            }
+            #home .ui-content .ui-btn .ui-btn-icon { 
+                float: left; 
+                margin-right: 10px; 
+                max-height: 16px; 
+                max-width: 16px; 
+            }
+            #home .ui-content span {
+                color:white;
+            }
+            #home .ui-content span .provider{
+                font-size: small;
+                font-weight: normal;
+            }
+/*START CATEGORIES LIST STYLES*/
+            #categories_list {
+                background-image: url(../images/fountain.jpg);
+                background-repeat:no-repeat;
+                background-size:cover;
+            }
+            #categories_list .ui-content span {
+                color:white;
+            }
+            /*HIDE ANY CATEGORIES FROM THE LIST HERE*/
+
+/*START POI LIST STYLES*/
+            #poi_list {
+                background:url('../images/paws.jpg');
+                background-size:cover;
+                padding-top:89px;
+            }
+            #poi_list div #geoerror {
+                background: rgb(193,168,117);
+                background: rgba(193,168,117, 1);
+                color:black;
+                font-size:small;
+                font-weight:bold;
+                text-align:center;
+                width:100%;
+            }
+            #poi_list .distance {
+                float:right;
+                font-weight:normal;
+                font-size:small;
+            }
+            #poi_list .ui-content span {
+                color:white;
+            }
+            #poi_list .subTitle {
+                font-weight:normal;
+                font-size: small;
+            }
+/*START MAP PAGE STYLES*/
+            #poi_map {
+                background:white;
+                height:100%;
+                padding-top:89px;
+            }
+            #poi_map .ui-content {
+                padding:0;
+                height:100%;
+            }
+            #poi_map #divMapCanvas {
+                position:absolute;
+                top:89px;
+                bottom:10px;
+                left:0px;
+                right:0px;
+            }    
+            #poi_map .infoWindow {
+                height: 60px;
+	            width: 60px;
+	            padding: 5px;
+	            float: left;
+            }
+            #poi_map .ui-footer {
+                position:fixed;
+                bottom:0;
+                left:0;
+                width:100%;
+            }
+/*START POI PAGE STYLES*/
+            #poi {
+                background:#fff;
+            }
+            #poi #placeTitle {
+                color:#592c88;
+                font-size:large;
+                font-weight:bold;
+                padding-bottom:10px;
+                text-align:center;
+                width:100%;
+            }
+            #poi #top {
+                width:100%;
+                text-align:center;
+                padding-bottom:10px;
+            }
+            #poi .ui-content span {
+                color:black;
+            }
+            #poi #top-right ul, #poi #top-right ul li, #poi #top-right ul li #mainImage {
+                margin:0;
+                padding:0;
+                width:100%;
+            }
+            #poi #Gallery {
+                list-style:none;
+                margin:0px;
+                padding:0px;
+            }
+            #poi #mainImage {
+                width:90%;
+            }
+            #poi .clear {
+                clear:both;
+            }
+            #poi .extra {
+                display:none;
+            }
+            #poi #description .ui-btn-text {
+                color:white;
+            }
+           
+                        
+/*START PARKING PAGE STYLES*/
+            #parking 
+            {
+                text-align: left;
+            }
+/*START ABOUT PAGE STYLES*/
+            #about {
+                padding-top:70px;
+            }
+            #about .ui-content{
+                margin: 0 auto;
+                text-align:center;
+            }
+            #about #title {
+                color:#592c88;
+                padding-bottom:10px;
+            }
+            #about .ui-content .ui-btn-text {
+                color:white;
+            }
+            #about .bold {
+                font-weight:bold;
+            }
+            #list_directions {
+                padding-top:89px;
+            }
+/*START EVENTS LIST STYLES*/
+            #events {
+                background-image: url(../images/fountain.jpg);
+                background-repeat:no-repeat;
+                background-size:cover;
+            }
+            #events .ui-content span {
+                color:white;
+            }
+            #events .when {
+                float:right;
+                font-weight:normal;
+                font-size:small;
+            }
+/*START HEADER ICON STYLES*/
+            .ui-header #icon-back, .ui-header #icon-placeholder {
+                background:transparent;
+                float:left;
+                margin: 5px 0 0 0;
+                padding:0;
+                overflow:hidden;
+            }
+            .ui-header #icon-map, .ui-header #icon-list, .ui-header #icon-directions {
+                background:transparent;
+                float:right;
+                margin: 10px 0 0 0;
+                padding:0;
+                overflow:hidden;
+            }
+            .ui-header .ui-btn-inner {
+                border:0;
+            }
+/*START NAVBAR STYLES*/
+            .togglenav {
+                color: #592c88;
+                font-size:medium;
+                text-align:center;
+                margin:0 auto;
+            }
+            .hidenav {
+                display:none;
+            }
+            .nav-bar .ui-btn {
+                background:transparent;
+                border:none;
+            }
+            .nav-bar span .ui-btn-text {
+                color:#592c88;
+            }
+            .nav-bar .ui-btn .ui-btn-inner { 
+                padding-top: 40px !important; }
+            .nav-bar .ui-btn .ui-icon { 
+                width: 30px!important; 
+                height: 30px!important; 
+                margin-left: -15px !important; 
+                box-shadow: none!important; 
+                -moz-box-shadow: none!important; 
+                -webkit-box-shadow: none!important; 
+                -webkit-border-radius: 0 !important; 
+                border-radius: 0 !important; }
+            .nav-bar .home .ui-icon { 
+                background:  url(../images/home.png) 50% 50% no-repeat; 
+                background-size: 22px 22px; }
+            .nav-bar .directions .ui-icon { 
+                background:  url(../images/directions.png) 50% 50% no-repeat; 
+                background-size: 24px 24px;  }
+            .nav-bar .parking .ui-icon { 
+                background:  url(../images/parking.png) 50% 50% no-repeat; 
+                background-size: 34px 19px; }
+            .nav-bar .about .ui-icon { 
+                background:  url(../images/chart.png) 50% 50% no-repeat;  
+                background-size: 24px 24px; }
+            .nav-bar .connect .ui-icon { 
+                background:  url(../images/bullhorn.png) 50% 50% no-repeat;  
+                background-size: 24px 17px; }
+            @media all and (-webkit-min-device-pixel-ratio : 1.5) {
+                .nav-bar .home .ui-icon { 
+                    background:  url(../images/home@2x.png) 50% 50% no-repeat; 
+                    background-size: 22px 22px; }
+                .nav-bar .directions .ui-icon { 
+                    background:  url(../images/directions@2x.png) 50% 50% no-repeat; 
+                    background-size: 24px 24px;  }
+                .nav-bar .parking .ui-icon { 
+                    background:  url(../images/parking@2x.png) 50% 50% no-repeat; 
+                    background-size: 34px 19px; }
+                .nav-bar .about .ui-icon { 
+                    background:  url(../images/chart@2x.png) 50% 50% no-repeat;  
+                    background-size: 24px 24px; }
+                .nav-bar .connect .ui-icon { 
+                    background:  url(../images/bullhorn@2x.png) 50% 50% no-repeat;  
+                    background-size: 24px 17px; }
+            }

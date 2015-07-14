@@ -1,0 +1,5 @@
+﻿[
+     { "RouteCode": "1000", "wayPoint_Code": "1", "wayPoint_Lat": "35.31252044738676", "wayPoint_Long": "-83.18844291223678", "wayPointName": "Trail Head - NCCAT", "description": "Trail head - NCCAT of the route", "WPImage1": "NCCAT1.jpg", "WPImage2": "NCCAT2.jpg", "WPImage3": "" },
+     { "RouteCode": "1000", "wayPoint_Code": "2", "wayPoint_Lat": "35.31046793171271", "wayPoint_Long": "-83.19659585062678", "wayPointName": "Intersection", "description": "Red - Blue - Yellow intersection", "WPImage1": "catamount.jpg", "WPImage2": "", "WPImage3": "" },
+     { "RouteCode": "1000", "wayPoint_Code": "3", "wayPoint_Lat": "35.30673934388197", "wayPoint_Long": "-83.20545230065916", "wayPointName": "Intersection 1", "description": "Red - Blue intersection", "WPImage1": "red_blue_Intersection.jpg", "WPImage2": "", "WPImage3": "" }
+]

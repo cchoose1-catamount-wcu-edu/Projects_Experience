@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Cullowhee Trails</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+    <link rel="Stylesheet" href="Stylesheets/Main.css" />
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+    <script src="Global_Javascript_Files/ProjectedOverlay.js"></script>
+    <script src="Global_Javascript_Files/geoxml3.js"></script>
+    <script src="Global_Javascript_Files/main.js"></script>
+    <script src="Global_Javascript_Files/TrackDisplay.js"></script>
+    
+</head>
+<body>
+<div data-role="page" id="poi_map">
+    <div data-role="header">
+        <a href="#" id="icon-back" data-role="button" data-theme="none" data-corners="false" data-shadow="false" rel="external"><img src="images/back.png" alt="back" /></a>
+        <!--<a href="listDirection.htm" id="icon-directions" data-role="button" data-theme="none" data-corners="false" data-shadow="false" rel="external"><img src="images/directions.png" alt="map" /></a>-->
+        <img src="images/logo.png" id="headerlogo" />
+        <h1></h1>
+        <hr />
+    </div>
+    <div data-role="content">
+        <div id="divMapCanvas">
+        </div>
+    </div>
+    <div data-role="footer">
+            <hr />
+            <div class="shownav togglenav">Show Toolbar</div>
+            <div class=" hidenav togglenav">Hide Toolbar</div> 
+            <div data-role="navbar" class="nav-bar" data-grid="c"> 
+                <ul> 
+                    <li><a href="index.html" rel="external" class="home" data-icon="custom">Home</a></li>  
+                    <li><a href="hiking.htm" rel="external"  class="connect" data-icon="custom">Hiking Trails</a></li>
+                    <li><a href="walkingJogging.htm" rel="external"  class="connect" data-icon="custom">Walking/Jogging Paths</a></li>
+                    <li><a href="cycling.htm" rel="external"  class="connect" data-icon="custom">Road Cyclying Paths</a></li>
+                    <li><a href="fishing.htm" rel="external"  class="connect" data-icon="custom">Fishing</a></li>
+                    <li><a href="about.html" rel="external"  class="about" data-icon="custom">About</a></li>
+                </ul> 
+            </div> 
+     </div>
+</div>
+</body>
+</html>

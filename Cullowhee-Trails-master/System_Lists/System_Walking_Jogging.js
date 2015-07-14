@@ -1,0 +1,2 @@
+﻿[{ "CategoryCode": "3", "CategoryName": "Campus Walking Paths", "CategoryDescription": "- All Walking Paths", "Track_FileName": "Category_3.js" },
+ { "CategoryCode": "31", "CategoryName": "Franklin Greenway", "CategoryDescription": "- Little Tennessee Greenway", "Track_FileName": "Category_31.js"}]

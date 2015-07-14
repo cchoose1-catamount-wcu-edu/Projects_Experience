@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  <document>
+    <name>Fishing.kml</name>
+    <StyleMap id="msn_ylw-pushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#sn_ylw-pushpin</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#sh_ylw-pushpin</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="sn_ylw-pushpin">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+      <LineStyle>
+        <color>ff7f0055</color>
+        <width>4.1</width>
+      </LineStyle>
+    </Style>
+    <Style id="sh_ylw-pushpin">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+      <LineStyle>
+        <color>ff7f0055</color>
+        <width>4.1</width>
+      </LineStyle>
+    </Style>
+    <Style id="sn_ylw-pushpin">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+      <LineStyle>
+        <color>ffff55aa</color>
+        <width>4.1</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="msn_ylw-pushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#sn_ylw-pushpin</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#sh_ylw-pushpin</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="sh_ylw-pushpin">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+      <LineStyle>
+        <color>ffff55aa</color>
+        <width>4.1</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="msn_ylw-pushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#sn_ylw-pushpin</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#sh_ylw-pushpin</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="sh_ylw-pushpin">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4.1</width>
+      </LineStyle>
+    </Style>
+    <Style id="sn_ylw-pushpin">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4.1</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="msn_ylw-pushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#sn_ylw-pushpin</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#sh_ylw-pushpin</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="sn_ylw-pushpin">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+      <LineStyle>
+        <color>ff0055ff</color>
+        <width>4.1</width>
+      </LineStyle>
+    </Style>
+    <Style id="sh_ylw-pushpin">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+      <LineStyle>
+        <color>ff0055ff</color>
+        <width>4.1</width>
+      </LineStyle>
+    </Style>
+
+    <Placemark>
+      <name>Fishing-Lower-Tuckaseegee_River</name>
+      <description>Lower Tuckaseegee River</description>
+      <styleUrl>#msn_ylw-pushpin</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -83.29781635971543,35.39208099357227,0 -83.29841486749912,35.39327555000281,0 -83.29835141276456,35.39424757634222,0 -83.29780015789115,35.39675343985348,0 -83.29531602355796,35.3986609251871,0 -83.29318078692981,35.39974540913671,0 -83.2919708337125,35.4008159832615,0 -83.29193455916669,35.40230786871106,0 -83.29264938641987,35.40393104552366,0 -83.2939017782613,35.40536162719481,0 -83.29562057246088,35.40595972525409,0 -83.29793694768708,35.40577615893119,0 -83.30024340067817,35.40448262127396,0 -83.30231988035884,35.40299738984259,0 -83.30450474337081,35.40266420772264,0 -83.30686052224135,35.4029802459905,0 -83.30930042510242,35.40345554749065,0 -83.31210690917966,35.40412332852858,0 -83.31532139101074,35.40436708713894,0 -83.31818109917812,35.40361858018758,0 -83.31996974189735,35.40328212804363,0 -83.32069392924149,35.40355147235742,0 -83.3215382664087,35.40442483362135,0 -83.32358572931722,35.40607002825057,0 -83.32494872514219,35.4067163543716,0 -83.32769059613992,35.40961511805394,0 -83.32752311381431,35.4104388799935,0 -83.32737916715051,35.41112893364197,0 -83.32775039691747,35.41281696820699,0 -83.32880353674617,35.41557225840819,0 -83.33115947562435,35.41766462762789,0 -83.33408333338572,35.41854945692121,0 -83.33696513350949,35.4206688832038,0 -83.33970648509447,35.42241888394315,0 -83.34140626801211,35.42250249739866,0 -83.34454181584047,35.42193232326724,0 -83.34788730399509,35.42280864033052,0 -83.35031197678001,35.42471060395649,0 -83.35363112947962,35.42716384965868,0 -83.35645143729582,35.42866027835114,0 -83.35926946200709,35.42946096646343,0 -83.360662209243,35.43084170273436,0 -83.3608036473253,35.43244026931131,0 -83.35989221437184,35.43406764941916,0 -83.35827694283412,35.4352051234666,0 -83.35742878923018,35.4364714446071,0 -83.35693281522249,35.43777153588787,0 -83.35834095551142,35.43924349730295,0 -83.36116332646398,35.44069464981884,0 -83.36114257378186,35.4406946297534,0 -83.36532356372973,35.44159862529469,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Fishing-Tuckaseege-East-Laport</name>
+      <description>Tuckaseegee East Laport</description>
+      <styleUrl>#msn_ylw-pushpin</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -83.14253765336588,35.29084258405867,0 -83.14201228749914,35.29177422660424,0 -83.14222842276891,35.29281801973411,0 -83.1431181021742,35.29434713482738,0 -83.14494221904103,35.29513634878874,0 -83.14724027796173,35.29674890874324,0 -83.14825397531527,35.29739555868905,0 -83.14793136014733,35.2988326070262,0 -83.14911126436094,35.30096393758326,0 -83.15128092545741,35.30108957023383,0 -83.15203608963394,35.29985500335221,0 -83.15190204201157,35.29791259551288,0 -83.15109099142316,35.29624428568893,0 -83.15188129214822,35.29539189660856,0 -83.15494895338277,35.29443341501605,0 -83.15712574506532,35.29556263496225,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Tuckaseegee-River-Dillsboro</name>
+      <description>Tuckaseegee River in Dillsboro</description>
+      <styleUrl>#msn_ylw-pushpin</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -83.26747186246723,35.38357885346625,0 -83.26730441905022,35.38194926428256,0 -83.26622831570357,35.38004336031512,0 -83.26580296443404,35.37932989938528,0 -83.2662185398399,35.37771242913912,0 -83.26716573824159,35.37623728924648,0 -83.26793201688111,35.37550474977225,0 -83.26739134450394,35.37439876965173,0 -83.26625180716893,35.37271077934638,0 -83.26537916288135,35.37182748699001,0 -83.26431044335337,35.37088200523294,0 -83.26337453116742,35.36978027412581,0 -83.26186381577041,35.36823764999517,0 -83.26096730048762,35.36752242194245,0 -83.26026433135661,35.36715180522404,0 -83.26022477234434,35.3671523956241,0 -83.26015627070504,35.367164045282,0 -83.25980445138126,35.36669071194682,0 -83.25858472741142,35.36647009137646,0 -83.25808030555865,35.36623802924301,0 -83.25768570849584,35.36620924279868,0 -83.25726717240018,35.36617045504389,0 -83.2559862332057,35.36669098965682,0 -83.25504251752248,35.36700666047282,0 -83.25404764943467,35.36722716322539,0 -83.25324826216888,35.36718668009143,0 -83.25255904868274,35.36736718133079,0 -83.25184711615097,35.36724726426202,0 -83.250574845119,35.36704676614451,0 -83.24971605140729,35.36670318260353,0 -83.24879906500557,35.36631636440838,0 -83.24782760963845,35.36606669670373,0 -83.24721705179462,35.36534051177015,0 -83.2469835047018,35.36417719875826,0 -83.24664107730344,35.36266689480956,0 -83.24619345801391,35.36114130863918,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Fishing-Whitewater-River</name>
+      <description>Whitewater River</description>
+      <styleUrl>#msn_ylw-pushpin</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -83.06655128951796,35.06600735656549,0 -83.06649619672226,35.06604181134322,0 -83.06644110854708,35.06606534622986,0 -83.06589490677503,35.06633694342123,0 -83.06519674136048,35.06622106014117,0 -83.06462161977976,35.06658425571777,0 -83.06410082558843,35.06730705440399,0 -83.06397199301031,35.06978630180902,0 -83.06508180862032,35.07243860188307,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+  </document>
+</kml>

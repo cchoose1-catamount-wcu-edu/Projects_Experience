@@ -1,0 +1,59 @@
+Application: 	WCU_Orientation
+Build: 			2/12/2013
+Author:			Britt Cline
+Description:	Orientation baggage
+
+Overview
+	- TEST A LOT! I overlayed the skin and page information over the Dillsboro app to this build. I may have 
+	  missed a few things that would make things quirky from admin to the interface itself. I hope I got 
+	  everything but its unlikely.
+	- App needs icons. I have a pack of icons that we can use but they must be entered staticly (without use
+	  of the admin tools) so it could leave some open gaps down the road. This needs to be discussed with Dr.
+	  Clapper.
+	- We've tried to add transitions for the 'BLING' effect but the multipage jQuery Mobile approach has a lot
+	  of quirks. I've read that it is possible to do this via AJAX, however, we have AJAX turned off at the 
+	  top of all (or most) of the JS pages for reasons unknown to me. If you run out of things to do, look 
+	  into this. It may turn out to be a fun project!
+	- According to the jQuery Mobile Docs we aren't supposed to use document.Ready (or anything like it). 
+	  There is a set method they suggest that I cannot think of at the time of writing this. It may be 
+	  worthwhile to change to that method in order to ensure longterm stability of the app. As far as I can
+	  see everything is working fine now but I've always been one to follow the books on things like that.
+	- Docs folder is old and could stand to be cleaned out. Make sure to fill it with current information 
+	  though.
+
+
+Index page
+	- Events button does not point to a page. Needs to be built using Google Calendar or RSS API possibly. 
+	  Discuss this with Dr. Clapper (this feature has not been discussed with him previously). Creating a 	  	  calendar that only Tammy Haskett can change is also a possibility so that she can add her own events.
+	- Weather button can stay or go. I don't think it would hurt to leave it, discuss with Dr. Clapper and
+	  Tammy Haskett. It currently points to Local Yokel and opens in a new tab.
+	- Parking is a possibility to add to the front page since it's not likely that we'll actually use the 
+	  Google Maps API for directions. This should probably be static so, you may want to just delete it 
+	  from the Admin Tools entirely. Definetly a problem that needs to be solved but I think the idea of 
+	  using the PDF is the safest.
+	- All maps need to be fixed for fit the screen properly. We've struggled to find a good fix for this. 
+	  CSS Media Queries may be the answer.
+	- All icons need to be recolored. I overlayed the Western Purple onto Dillsboro icons so some red is 
+	  still showing through, especially in the transparent areas. They need to be redone from scratch.
+
+POI Categories Page
+	- Good for now I think.
+
+POI_List Page
+	- May not be a bad idea to seperate this from the map page to maintain consistency. Ask Dr. Clapper.
+
+POI_List Map Page
+	- Same as above. Seperate from list page.
+	- Pop ups need redesign.
+	- Icons need redesign.
+
+POI page
+	- I noticed some descriptions are showing the actual HTML tags instead of using them in the code. Hinds
+	  University Center is a good example of this.
+	- Format top picture for mobile page through CSS (I'll likely beat you to this).
+
+
+About page
+	- Needs to be updated for the current semester. Make sure to add yourself and anyone thats helped you 
+	  along with QA. You're not getting paid for this (obviously) so make sure everyone gets credit for 
+	  working on it. It may land you a job one day!

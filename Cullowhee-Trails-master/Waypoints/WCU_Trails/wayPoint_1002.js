@@ -1,0 +1,7 @@
+﻿[
+         { "RouteCode": "1002", "wayPoint_Code": "200", "wayPoint_Lat": "35.31252044738676", "wayPoint_Long": "-83.18844291223678", "wayPointName": "Trail Head - NCCAT", "description": "First trail head - NCCAT of the route", "WPImage1": "NCCAT1.jpg", "WPImage2": "NCCAT2.jpg", "WPImage3": "" },
+         { "RouteCode": "1002", "wayPoint_Code": "201", "wayPoint_Lat": "35.3047727808756", "wayPoint_Long": "-83.20383064523716", "wayPointName": "Trail Head - HHS", "description": "Second trail head - HHS of the route", "WPImage1": "HHS.jpg", "WPImage2": "", "WPImage3": "" },
+         { "RouteCode": "1002", "wayPoint_Code": "202", "wayPoint_Lat": "35.30695795485959", "wayPoint_Long": "-83.20355617397374", "wayPointName": "Intersection 1", "description": "White - Blue intersection", "WPImage1": "", "WPImage2": "", "WPImage3": "" },
+         { "RouteCode": "1002", "wayPoint_Code": "203", "wayPoint_Lat": "35.31046793171271", "wayPoint_Long": "-83.19659585062678", "wayPointName": "Intersection", "description": "Red - Yellow intersection", "WPImage1": "", "WPImage2": "", "WPImage3": "" },
+         { "RouteCode": "1002", "wayPoint_Code": "204", "wayPoint_Lat": "35.30673934388197", "wayPoint_Long": "-83.20545230065916", "wayPointName": "Intersection 2", "description": "Red - Blue intersection", "WPImage1": "red_blue_Intersection.jpg", "WPImage2": "", "WPImage3": "" }
+]

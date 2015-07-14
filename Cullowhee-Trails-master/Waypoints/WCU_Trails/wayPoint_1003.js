@@ -1,0 +1,6 @@
+﻿[
+         { "RouteCode": "1003", "wayPoint_Code": "300", "wayPoint_Lat": "35.3047727808756", "wayPoint_Long": "-83.20383064523716", "wayPointName": "Trail Head - HHS", "description": "Trail head - HHS of the route", "WPImage1": "HHS.jpg", "WPImage2": "", "WPImage3": "" },
+         { "RouteCode": "1003", "wayPoint_Code": "301", "wayPoint_Lat": "35.30695795485959", "wayPoint_Long": "-83.20355617397374", "wayPointName": "Intersection 1", "description": "White - Blue intersection", "WPImage1": "catamount.jpg", "WPImage2": "", "WPImage3": "" },
+         { "RouteCode": "1003", "wayPoint_Code": "302", "wayPoint_Lat": "35.30668134246393", "wayPoint_Long": "-83.20838057079392", "wayPointName": "Intersection 2", "description": "Green - Blue intersection", "WPImage1": "catamount.jpg", "WPImage2": "", "WPImage3": "" },
+         { "RouteCode": "1003", "wayPoint_Code": "303", "wayPoint_Lat": "35.30673934388197", "wayPoint_Long": "-83.20545230065916", "wayPointName": "Intersection 3", "description": "Green - Orange intersection", "WPImage1": "catamount.jpg", "WPImage2": "", "WPImage3": "" }
+]

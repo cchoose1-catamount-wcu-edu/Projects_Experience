@@ -1,0 +1,12 @@
+﻿[
+    { "TrailSystemCode": "2", "RouteCode": "2000", "RouteName": "Black Blue White", "Description": "This is a Test", "SegmentArray": "101,102,103", "RouteLength": "6.5 Miles", "RouteDifficulty": "Intermediate", "TrailHead": "NCCAT", "TrailHead_Lat": "35.31252044738676", "TrailHead_Long": "-83.18844291223678", "Image1": "test.jpg", "Image2": "test", "Image3": "test.png", "Image4": "test.JPG", "Image5": "test", "parking": "Visitors can park at Lot 19A close to the softball field after 5pm during weekday and anytime on weekend", "RouteFile": "Black-Blue-White" },
+
+
+    { "TrailSystemCode": "2", "RouteCode": "2001", "RouteName": "Green White Red", "Description": "This is a Test", "SegmentArray": "101", "RouteLength": "3.63 Miles", "RouteDifficulty": "Intermediate", "TrailHead": "NCCAT", "TrailHead_Lat": "35.31252044738676", "TrailHead_Long": "-83.18844291223678", "Image1": "Yellow.jpg", "Image2": "Yellow.png", "Image3": "Yellow-Yellow.JPG", "Image4": "", "Image5": "", "parking": "Visitors can park at Lot 19A close to the softball field after 5pm during weekday and anytime on weekend", "RouteFile": "Green-White-Red" },
+
+
+    { "TrailSystemCode": "2", "RouteCode": "2002", "RouteName": "Red Blue Green", "Description": "This is a Test", "SegmentArray": "105,102,103,101", "RouteLength": "6.22 Miles", "RouteDifficulty": "Intermediate", "TrailHead": "HHS", "TrailHead_Lat": "35.3047727808756", "TrailHead_Long": "-83.20383064523716", "Image1": "white blue red yellow.jpg", "Image2": "White-Blue-Red-Yellow.png", "Image3": "White-Blue-Red-Yellow.JPG", "Image4": "", "Image5": "", "parking": "Visitor can park on the HHS building parking lot after 5pm during weekday and anytime on weekend", "RouteFile": "Red-Blue-Green" },
+
+
+    { "TrailSystemCode": "2", "RouteCode": "2003", "RouteName": "Red White Blue", "Description": "This is a Test", "SegmentArray": "105,102,104,106", "RouteLength": "2.91 Miles", "RouteDifficulty": "Intermediate", "TrailHead": "HHS", "TrailHead_Lat": "35.3047727808756", "TrailHead_Long": "-83.20383064523716", "Image1": "white blue green orange.jpg", "Image2": "White-Blue-Green-Orange.png", "Image3": "White-Blue-Green-Orange.JPG", "Image4": "", "Image5": "", "parking": "Visitor can park on the HHS building parking lot after 5pm during weekday and anytime on weekend", "RouteFile": "Red-White-Blue" }
+]

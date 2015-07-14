@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master.master.cs" Inherits="Master" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="Stylesheet" href="../Stylesheets/template.css" type="text/css" />
+    <link rel="Stylesheet" href="../Stylesheets/rounded.css" type="text/css" />
+    <link rel="Stylesheet" href="../Stylesheets/menu.css" type="text/css" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="minwidth-body">
+    <form id="form1" runat="server">
+    <div id="border-top" class="h_green">
+        <div>
+            <div>
+                <span class="version">Version 1.0</span>
+                <span class="title">Orientation Tour Admin Controls</span>
+            </div>
+        </div>
+    </div>
+    <div id="header-box">
+        <div id="module-status">
+            <span class="preview">
+                <asp:LinkButton ID="butSaveJSONFile" runat="server" Text="Publish to Phone App" 
+                    onclick="butSaveJSONFile_Click" />
+            </span>
+            <span class="logout">
+                <asp:LinkButton ID="butLogoff" runat="server" Text="Logoff" onclick="butLogoff_Click" CausesValidation="false" />
+            </span>
+        </div>
+        <div id="module-menu">
+            <ul id="menu">
+                <li class="node"><a href="POIs.aspx">POIs</a></li>
+                <li class="node"><a href="Categories.aspx">Categories</a></li>
+            </ul>
+        </div>
+        <div class="clr"></div>
+    </div>
+    <div id="content-box">
+        <div class="border">
+            <div class="padding">
+                        <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+                        </asp:ToolkitScriptManager>
+                        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+            <div class="clr"></div>
+        </div>
+    </div>
+    <div id="border-bottom">
+        <div>
+            <div></div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
